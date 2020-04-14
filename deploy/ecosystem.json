@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "name": "distributor",
+    "script": "src/index.js",
+    "cwd": "/home/savetodrive/distributor/current",
+    "error_file": "/home/savetodrive/distributor/logs/app.err.log",
+    "out_file": "/home/savetodrive/distributor/logs/app.out.log",
+    "exec_mode": "cluster",
+    "instances": 1,
+    "wait_ready": true,
+    "kill_timeout" : 3000
+  }]
+}

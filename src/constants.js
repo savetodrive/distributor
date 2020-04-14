@@ -1,0 +1,10 @@
+exports.MAIN_UPLOAD_QUEUE = 'std_main_upload_queue';
+exports.SERVER_UPLOAD_QUEUE_PREFIX = 'std_server_upload_queue';
+exports.FINISH_UPLOAD_QUEUE = 'std_finish_upload_queue';
+exports.TERMINATE_UPLOADS_QUEUE = 'std_terminate_uploads_queue';
+exports.SYNC_UPLOADS_COUNT = 'sync_uploads_count';
+exports.CHECK_SERVER_DEFICIENCY = 'check_server_deficiency';
+exports.TERMINATE_UPLOADER = 'std_terminate_uploader';
+exports.KILL_UPLOADER = 'std_kill_uploader';
+exports.INITIATE_UPLOADER = 'std_initiate_uploader';
+exports.SLEEP_UPLOADER = 'std_sleep_uploader';

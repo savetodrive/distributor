@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+set -eux
+exec node_modules/.bin/nodemon --inspect=0.0.0.0:9231 $* src/index.js --watch src/ --exec 'npm run lint && node'

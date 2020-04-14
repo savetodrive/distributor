@@ -1,0 +1,43 @@
+{
+  "name": "distributor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:savetodrive/distributor.git",
+  "author": "Ujjwal Ojha <bring2uo@gmail.com>",
+  "license": "Proprietary",
+  "private": true,
+  "scripts": {
+    "start": "bin/start-dev-app",
+    "lint": "eslint src/",
+    "test:integration": "mocha --recursive --exit --require should tests/integration",
+    "test:unit": "mocha --recursive --exit --require should tests/unit",
+    "lint-fix": "eslint --fix src/"
+  },
+  "dependencies": {
+    "@sentry/node": "^4.6.3",
+    "dotenv": "^4.0.0",
+    "kue": "^0.11.6",
+    "kue-scheduler": "^0.7.4",
+    "mongoose": "5",
+    "mongoose-timestamp": "^0.6.0",
+    "p-limit": "^1.2.0",
+    "redis": "^2.8.0",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "require-glob": "^3.2.0",
+    "should": "^13.2.1",
+    "uniqid": "5.0.3",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.8.0",
+    "winston-logzio": "^4.0.1",
+    "winston-transport": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.14.11",
+    "sinon": "^6.1.3"
+  }
+}
